@@ -78,6 +78,14 @@
       "name": "Total Commits",
       "description": "How many commits is this feature?"
     },
+    "n-info-score": {
+      "name": "Information scoring",
+      "description": "Including write up the initial Google docs and figuring out how to deal with KL divergence in all the different cases, as well as learning about the theory. Doesn't include time-scoring."
+    },
+    "n-time-scoring": {
+      "name": "Information scoring",
+      "description": "Library built by Ozzie over roughly 2 weeks to score things over time."
+    },
     "n-issue-323": {
       "name": "Email Epic",
       "description": "For this epic, we want to set up email infrastructure so that users can be emailed when important things happen. We'll test this with just one single transactional email.",
