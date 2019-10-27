@@ -82,6 +82,10 @@
       "name": "Information scoring",
       "description": "Including write up the initial Google docs and figuring out how to deal with KL divergence in all the different cases, as well as learning about the theory. Doesn't include time-scoring."
     },
+    "n-notebooks": {
+      "name": "Notebooks",
+      "description": "In general."
+    },
     "n-time-scoring": {
       "name": "Time scoring",
       "description": "Library built by Ozzie over roughly 2 weeks to score things over time."
