@@ -8,7 +8,8 @@
       "p-name": "Instance of"
     },
     "p-name": {
-      "p-name": "Name"
+      "p-name": "Name",
+      "p-description": "The name of the specific entity"
     },
     "p-description": {
       "p-name": "Description"
