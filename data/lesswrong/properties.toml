@@ -1,0 +1,13 @@
+[config]
+baseId = "lesswrong"
+resourceId = "properties"
+
+  [config.aliases]
+  name = "@base/properties/p-name"
+
+[karma]
+name = "Karma"
+
+[comments]
+name = "Comments(Non-Author)"
+description = "Comments, minus those from the author"

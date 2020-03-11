@@ -1,0 +1,31 @@
+[config]
+baseId = "foretold"
+resourceId = "main"
+
+[config.aliases]
+name = "@base/properties/p-name"
+description = "@base/properties/p-description"
+url = "@base/properties/p-url"
+
+[commits]
+name = "# of Commits"
+
+[agents]
+name = "# of Agents"
+
+[measurables]
+name = "# of Measurables"
+
+[n-fhi]
+name = "FHI"
+
+[n-foretold]
+name = "Foretold"
+description = "This website, to hold predictions"
+url = "foretold.io"
+
+[n-ozzie-gooen]
+name = "Ozzie Gooen"
+
+[n-jacob-lagerros]
+name = "Jacob Lagerros"

@@ -1,0 +1,17 @@
+[config]
+baseId = "foretold"
+resourceId = "internet-intellectual-infrastructure-retreat"
+
+  [config.aliases]
+  name = "@base/properties/p-name"
+
+[n-2019-retreat]
+name = "IIIR 2019 Retreat"
+Description = "Internet Intellectual Infrastructure Retreat, 2019"
+
+[p-attendance]
+name = "Attendance"
+
+[p-counterfactual-value]
+name = "Counterfactual Value"
+Description = "The counterfactual monetary value of a thing happening."

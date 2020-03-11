@@ -1,0 +1,17 @@
+[config]
+baseId = "coronavirus"
+resourceId = ""
+
+  [config.aliases]
+  name = "@base/properties/p-name"
+  description = "@base/properties/p-description"
+  property = "@base/properties/n-property"
+  instance-of = "@base/properties/p-instance-of"
+
+[n-coronavirus]
+name = "Coronavirus"
+
+[p-infections]
+name = "Coronavirus:Total Infections"
+description = "Total number of infected cases at this point. This includes people without symptoms, or who aren't yet confirmed."
+instance-of = "property"

@@ -1,0 +1,29 @@
+[config]
+baseId = "base"
+resourceId = "properties"
+
+# Note: This just is here because foretold breaks if items don't have aliases.
+[config.aliases]
+name = "@base/properties/p-name"
+
+[p-instance-of]
+p-name = "Instance of"
+
+[p-name]
+p-name = "Name"
+p-description = "The name of the specific entity"
+
+[p-description]
+p-name = "Description"
+
+[p-url]
+p-name = "Web URL"
+
+[n-organization]
+p-name = "Organization"
+
+[n-movie]
+p-name = "Movie"
+
+[p-author]
+p-name = "Author"

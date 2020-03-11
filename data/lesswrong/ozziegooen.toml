@@ -1,0 +1,18 @@
+[config]
+baseId = "lesswrong"
+resourceId = "ozziegooen"
+
+  [config.aliases]
+  name = "@base/properties/p-name"
+  description = "@base/properties/p-description"
+  url = "@base/properties/p-url"
+
+[prediction-pyramid]
+name = "The Prediction Pyramid"
+description = "The Prediction Pyramid: Why Fundamental Work is Needed for Prediction Work"
+url = "https://www.lesswrong.com/posts/zuAj86jcB5JB4dgqm/the-prediction-pyramid-why-fundamental-work-is-needed-for"
+
+[rain]
+name = "RAIN Framework!!!"
+description = "The RAIN Framework for Informational Effectiveness"
+url = "https://www.lesswrong.com/posts/s4TrCbCXvvWfkT2o6/the-rain-framework-for-informational-effectiveness"

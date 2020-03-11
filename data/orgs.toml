@@ -1,0 +1,21 @@
+[config]
+baseId = "orgs"
+resourceId = "companies"
+
+  [config.aliases]
+  name = "@base/properties/p-name"
+
+[tesla]
+name = "Tesla"
+
+[spacex]
+name = "SpaceX"
+
+[employee-count]
+name = "Employee Count"
+
+[revenue]
+name = "Revenue"
+
+[market-cap]
+name = "Market Cap"

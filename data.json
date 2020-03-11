@@ -1,8 +1,11 @@
-[{
+[
+  {
     "config": {
       "baseId": "base",
       "resourceId": "properties",
-      "aliases": {}
+      "aliases": {
+        "name": "@base/properties/p-name"
+      }
     },
     "p-instance-of": {
       "p-name": "Instance of"
@@ -25,40 +28,6 @@
     },
     "p-author": {
       "p-name": "Author"
-    }
-  },
-  {
-    "config": {
-      "baseId": "foretold",
-      "resourceId": "main",
-      "aliases": {
-        "name": "@base/properties/p-name",
-        "description": "@base/properties/p-description",
-        "url": "@base/properties/p-url"
-      }
-    },
-    "commits": {
-      "name": "# of Commits"
-    },
-    "agents": {
-      "name": "# of Agents"
-    },
-    "measurables": {
-      "name": "# of Measurables"
-    },
-    "n-fhi": {
-      "name": "FHI"
-    },
-    "n-foretold": {
-      "name": "Foretold",
-      "description": "This website, to hold predictions",
-      "url": "foretold.io"
-    },
-    "n-ozzie-gooen": {
-      "name": "Ozzie Gooen"
-    },
-    "n-jacob-lagerros": {
-      "name": "Jacob Lagerros"
     }
   },
   {
@@ -104,6 +73,302 @@
     "n-functionality-brier-scrore": {
       "name": "Simple-Brier-Score",
       "description": "Implement a simple brier score system, so that users can see their brier scores on binary questions."
+    }
+  },
+  {
+    "config": {
+      "baseId": "foretold",
+      "resourceId": "internet-intellectual-infrastructure-retreat",
+      "aliases": {
+        "name": "@base/properties/p-name"
+      }
+    },
+    "n-2019-retreat": {
+      "name": "IIIR 2019 Retreat",
+      "Description": "Internet Intellectual Infrastructure Retreat, 2019"
+    },
+    "p-attendance": {
+      "name": "Attendance"
+    },
+    "p-counterfactual-value": {
+      "name": "Counterfactual Value",
+      "Description": "The counterfactual monetary value of a thing happening."
+    }
+  },
+  {
+    "config": {
+      "baseId": "foretold",
+      "resourceId": "main",
+      "aliases": {
+        "name": "@base/properties/p-name",
+        "description": "@base/properties/p-description",
+        "url": "@base/properties/p-url"
+      }
+    },
+    "commits": {
+      "name": "# of Commits"
+    },
+    "agents": {
+      "name": "# of Agents"
+    },
+    "measurables": {
+      "name": "# of Measurables"
+    },
+    "n-fhi": {
+      "name": "FHI"
+    },
+    "n-foretold": {
+      "name": "Foretold",
+      "description": "This website, to hold predictions",
+      "url": "foretold.io"
+    },
+    "n-ozzie-gooen": {
+      "name": "Ozzie Gooen"
+    },
+    "n-jacob-lagerros": {
+      "name": "Jacob Lagerros"
+    }
+  },
+  {
+    "config": {
+      "baseId": "lesswrong",
+      "resourceId": "ozziegooen",
+      "aliases": {
+        "name": "@base/properties/p-name",
+        "description": "@base/properties/p-description",
+        "url": "@base/properties/p-url"
+      }
+    },
+    "prediction-pyramid": {
+      "name": "The Prediction Pyramid",
+      "description": "The Prediction Pyramid: Why Fundamental Work is Needed for Prediction Work",
+      "url": "https://www.lesswrong.com/posts/zuAj86jcB5JB4dgqm/the-prediction-pyramid-why-fundamental-work-is-needed-for"
+    },
+    "rain": {
+      "name": "RAIN Framework!!!",
+      "description": "The RAIN Framework for Informational Effectiveness",
+      "url": "https://www.lesswrong.com/posts/s4TrCbCXvvWfkT2o6/the-rain-framework-for-informational-effectiveness"
+    }
+  },
+  {
+    "config": {
+      "baseId": "lesswrong",
+      "resourceId": "posts",
+      "aliases": {
+        "name": "@base/properties/p-name",
+        "author": "@base/properties/p-author",
+        "description": "@base/properties/p-description",
+        "url": "@base/properties/p-url",
+        "n-ozzie-gooen": "@foretold/main/n-ozzie-gooen"
+      }
+    },
+    "FGJKj6sxx9q4FAmbS": {
+      "name": "Predictive Reasoning Systems",
+      "description": "The Prediction Pyramid: Why Fundamental Work is Needed for Prediction Work",
+      "url": "https://www.lesswrong.com/posts/FGJKj6sxx9q4FAmbS"
+    },
+    "kMmNdHpQPcnJgnAQF": {
+      "name": "Prediction-Augmented Evaluation Systems",
+      "author": "n-ozzie-gooen"
+    },
+    "DCkHSrD53Methoxu6": {
+      "name": "What if people simply forecasted your future choices?",
+      "author": "n-ozzie-gooen"
+    },
+    "HB6aGCPjtvpLk4K9t": {
+      "name": "Can We Place Trust in Post-AGI Forecasting Evaluations?",
+      "author": "n-ozzie-gooen"
+    },
+    "vAzWfi5kDjZb27zD2": {
+      "name": "Ideas for Next Generation Prediction Technologies",
+      "author": "n-ozzie-gooen"
+    },
+    "zuAj86jcB5JB4dgqm": {
+      "name": "The Prediction Pyramid: Why Fundamental Work is Needed for Prediction Work",
+      "author": "n-ozzie-gooen"
+    },
+    "rain": {
+      "name": "RAIN Framework",
+      "description": "The RAIN Framework for Informational Effectiveness",
+      "author": "n-ozzie-gooen",
+      "url": "https://www.lesswrong.com/posts/s4TrCbCXvvWfkT2o6/the-rain-framework-for-informational-effectiveness"
+    }
+  },
+  {
+    "config": {
+      "baseId": "lesswrong",
+      "resourceId": "properties",
+      "aliases": {
+        "name": "@base/properties/p-name"
+      }
+    },
+    "karma": {
+      "name": "Karma"
+    },
+    "comments": {
+      "name": "Comments(Non-Author)",
+      "description": "Comments, minus those from the author"
+    }
+  },
+  {
+    "config": {
+      "baseId": "coronavirus",
+      "resourceId": "",
+      "aliases": {
+        "name": "@base/properties/p-name",
+        "description": "@base/properties/p-description",
+        "property": "@base/properties/n-property",
+        "instance-of": "@base/properties/p-instance-of"
+      }
+    },
+    "n-coronavirus": {
+      "name": "Coronavirus"
+    },
+    "p-infections": {
+      "name": "Coronavirus:Total Infections",
+      "description": "Total number of infected cases at this point. This includes people without symptoms, or who aren't yet confirmed.",
+      "instance-of": "property"
+    }
+  },
+  {
+    "config": {
+      "baseId": "locations",
+      "resourceId": "",
+      "aliases": {
+        "name": "@base/properties/p-name",
+        "instance-of": "@base/properties/p-instance-of"
+      }
+    },
+    "n-location": {
+      "name": "Location"
+    },
+    "n-china": {
+      "name": "China",
+      "instance-of": "n-location"
+    },
+    "n-hubei": {
+      "name": "Hubei",
+      "instance-of": "n-location"
+    },
+    "n-wuhan": {
+      "name": "Wuhan",
+      "instance-of": "n-location"
+    },
+    "n-south-korea": {
+      "name": "South Korea",
+      "instance-of": "n-location"
+    },
+    "n-japan": {
+      "name": "Japan",
+      "instance-of": "n-location"
+    },
+    "n-singapore": {
+      "name": "Singapore",
+      "instance-of": "n-location"
+    },
+    "n-hong-kong": {
+      "name": "Hong Kong",
+      "instance-of": "n-location"
+    },
+    "n-indonesia": {
+      "name": "Indonesia",
+      "instance-of": "n-location"
+    },
+    "n-australia": {
+      "name": "Australia",
+      "instance-of": "n-location"
+    },
+    "n-european-union": {
+      "name": "European Union",
+      "instance-of": "n-location"
+    },
+    "n-united-kingdon": {
+      "name": "United Kingdon",
+      "instance-of": "n-location"
+    },
+    "n-london": {
+      "name": "London",
+      "instance-of": "n-location"
+    },
+    "n-germany": {
+      "name": "Germany",
+      "instance-of": "n-location"
+    },
+    "n-spain": {
+      "name": "Spain",
+      "instance-of": "n-location"
+    },
+    "n-france": {
+      "name": "France",
+      "instance-of": "n-location"
+    },
+    "n-netherlands": {
+      "name": "Netherlands",
+      "instance-of": "n-location"
+    },
+    "n-belgium": {
+      "name": "Belgium",
+      "instance-of": "n-location"
+    },
+    "n-switzerland": {
+      "name": "Switzerland",
+      "instance-of": "n-location"
+    },
+    "n-russia": {
+      "name": "Russia",
+      "instance-of": "n-location"
+    },
+    "n-middle-east": {
+      "name": "The Middle East",
+      "instance-of": "n-location"
+    },
+    "n-dubai": {
+      "name": "Dubai",
+      "instance-of": "n-location"
+    },
+    "n-iran": {
+      "name": "Iran",
+      "instance-of": "n-location"
+    },
+    "n-united-states-of-america": {
+      "name": "United States of America",
+      "instance-of": "n-location"
+    },
+    "n-washington": {
+      "name": "Washington",
+      "instance-of": "n-location"
+    },
+    "n-california": {
+      "name": "California",
+      "instance-of": "n-location"
+    },
+    "n-new-york": {
+      "name": "New York",
+      "instance-of": "n-location"
+    },
+    "n-africa": {
+      "name": "Africa",
+      "instance-of": "n-location"
+    },
+    "n-egypt": {
+      "name": "Egypt",
+      "instance-of": "n-location"
+    },
+    "n-india": {
+      "name": "India",
+      "instance-of": "n-location"
+    },
+    "n-oxford": {
+      "name": "Oxford",
+      "instance-of": "n-location"
+    },
+    "n-italy": {
+      "name": "Italy",
+      "instance-of": "n-location"
+    },
+    "n-san-francisco": {
+      "name": "San Francisco",
+      "instance-of": "n-location"
     }
   },
   {
@@ -195,87 +460,6 @@
   },
   {
     "config": {
-      "baseId": "lesswrong",
-      "resourceId": "properties",
-      "aliases": {
-        "name": "@base/properties/p-name"
-      }
-    },
-    "karma": {
-      "name": "Karma"
-    },
-    "comments": {
-      "name": "Comments(Non-Author)",
-      "description": "Comments, minus those from the author"
-    }
-  },
-  {
-    "config": {
-      "baseId": "lesswrong",
-      "resourceId": "ozziegooen",
-      "aliases": {
-        "name": "@base/properties/p-name",
-        "description": "@base/properties/p-description",
-        "url": "@base/properties/p-url"
-      }
-    },
-    "prediction-pyramid": {
-      "name": "The Prediction Pyramid",
-      "description": "The Prediction Pyramid: Why Fundamental Work is Needed for Prediction Work",
-      "url": "https://www.lesswrong.com/posts/zuAj86jcB5JB4dgqm/the-prediction-pyramid-why-fundamental-work-is-needed-for"
-    },
-    "rain": {
-      "name": "RAIN Framework!!!",
-      "description": "The RAIN Framework for Informational Effectiveness",
-      "url": "https://www.lesswrong.com/posts/s4TrCbCXvvWfkT2o6/the-rain-framework-for-informational-effectiveness"
-    }
-  },
-  {
-    "config": {
-      "baseId": "lesswrong",
-      "resourceId": "posts",
-      "aliases": {
-        "name": "@base/properties/p-name",
-        "author": "@base/properties/p-author",
-        "description": "@base/properties/p-description",
-        "url": "@base/properties/p-url",
-        "n-ozzie-gooen": "@foretold/main/n-ozzie-gooen"
-      }
-    },
-    "FGJKj6sxx9q4FAmbS": {
-      "name": "Predictive Reasoning Systems",
-      "description": "The Prediction Pyramid: Why Fundamental Work is Needed for Prediction Work",
-      "url": "https://www.lesswrong.com/posts/FGJKj6sxx9q4FAmbS"
-    },
-    "kMmNdHpQPcnJgnAQF": {
-      "name": "Prediction-Augmented Evaluation Systems",
-      "author": "n-ozzie-gooen"
-    },
-    "DCkHSrD53Methoxu6": {
-      "name": "What if people simply forecasted your future choices?",
-      "author": "n-ozzie-gooen"
-    },
-    "HB6aGCPjtvpLk4K9t": {
-      "name": "Can We Place Trust in Post-AGI Forecasting Evaluations?",
-      "author": "n-ozzie-gooen"
-    },
-    "vAzWfi5kDjZb27zD2": {
-      "name": "Ideas for Next Generation Prediction Technologies",
-      "author": "n-ozzie-gooen"
-    },
-    "zuAj86jcB5JB4dgqm": {
-      "name": "The Prediction Pyramid: Why Fundamental Work is Needed for Prediction Work",
-      "author": "n-ozzie-gooen"
-    },
-    "rain": {
-      "name": "RAIN Framework",
-      "description": "The RAIN Framework for Informational Effectiveness",
-      "author": "n-ozzie-gooen",
-      "url": "https://www.lesswrong.com/posts/s4TrCbCXvvWfkT2o6/the-rain-framework-for-informational-effectiveness"
-    }
-  },
-  {
-    "config": {
       "baseId": "orgs",
       "resourceId": "companies",
       "aliases": {
@@ -297,26 +481,5 @@
     "market-cap": {
       "name": "Market Cap"
     }
-  },
-  {
-    "config": {
-      "baseId": "internet-intellectual-infrastructure-retreat",
-      "resourceId": "main",
-      "aliases": {
-        "name": "@base/properties/p-name"
-      }
-    },
-    "n-2019-retreat": {
-      "name": "IIIR 2019 Retreat",
-      "Description": "Internet Intellectual Infrastructure Retreat, 2019"
-    },
-    "p-attendance": {
-      "name": "Attendance"
-    },
-    "p-counterfactual-value": {
-      "name": "Counterfactual Value",
-      "Description": "The counterfactual monetary value of a thing happening."
-    }
   }
 ]
-

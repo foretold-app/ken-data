@@ -1,0 +1,138 @@
+[config]
+baseId = "locations"
+resourceId = ""
+
+  [config.aliases]
+  name = "@base/properties/p-name"
+  instance-of = "@base/properties/p-instance-of"
+
+[n-location]
+name = "Location"
+
+[n-china]
+name = "China"
+instance-of = "n-location"
+
+[n-hubei]
+name = "Hubei"
+instance-of = "n-location"
+
+[n-wuhan]
+name = "Wuhan"
+instance-of = "n-location"
+
+[n-south-korea]
+name = "South Korea"
+instance-of = "n-location"
+
+[n-japan]
+name = "Japan"
+instance-of = "n-location"
+
+[n-singapore]
+name = "Singapore"
+instance-of = "n-location"
+
+[n-hong-kong]
+name = "Hong Kong"
+instance-of = "n-location"
+
+[n-indonesia]
+name = "Indonesia"
+instance-of = "n-location"
+
+[n-australia]
+name = "Australia"
+instance-of = "n-location"
+
+[n-european-union]
+name = "European Union"
+instance-of = "n-location"
+
+[n-united-kingdon]
+name = "United Kingdon"
+instance-of = "n-location"
+
+[n-london]
+name = "London"
+instance-of = "n-location"
+
+[n-germany]
+name = "Germany"
+instance-of = "n-location"
+
+[n-spain]
+name = "Spain"
+instance-of = "n-location"
+
+[n-france]
+name = "France"
+instance-of = "n-location"
+
+[n-netherlands]
+name = "Netherlands"
+instance-of = "n-location"
+
+[n-belgium]
+name = "Belgium"
+instance-of = "n-location"
+
+[n-switzerland]
+name = "Switzerland"
+instance-of = "n-location"
+
+[n-russia]
+name = "Russia"
+instance-of = "n-location"
+
+[n-middle-east]
+name = "The Middle East"
+instance-of = "n-location"
+
+[n-dubai]
+name = "Dubai"
+instance-of = "n-location"
+
+[n-iran]
+name = "Iran"
+instance-of = "n-location"
+
+[n-united-states-of-america]
+name = "United States of America"
+instance-of = "n-location"
+
+[n-washington]
+name = "Washington"
+instance-of = "n-location"
+
+[n-california]
+name = "California"
+instance-of = "n-location"
+
+[n-new-york]
+name = "New York"
+instance-of = "n-location"
+
+[n-africa]
+name = "Africa"
+instance-of = "n-location"
+
+[n-egypt]
+name = "Egypt"
+instance-of = "n-location"
+
+[n-india]
+name = "India"
+instance-of = "n-location"
+
+[n-oxford]
+name = "Oxford"
+instance-of = "n-location"
+
+[n-italy]
+name = "Italy"
+instance-of = "n-location"
+
+[n-san-francisco]
+name = "San Francisco"
+instance-of = "n-location"
