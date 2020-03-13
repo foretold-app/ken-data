@@ -354,6 +354,14 @@
       "name": "Egypt",
       "instance-of": "n-location"
     },
+    "n-asia": {
+      "name": "Asia",
+      "instance-of": "n-location"
+    },
+    "n-south-america": {
+      "name": "South America",
+      "instance-of": "n-location"
+    },
     "n-india": {
       "name": "India",
       "instance-of": "n-location"
@@ -368,6 +376,18 @@
     },
     "n-san-francisco": {
       "name": "San Francisco",
+      "instance-of": "n-location"
+    },
+    "n-canada": {
+      "name": "Canada",
+      "instance-of": "n-location"
+    },
+    "n-mexico": {
+      "name": "Mexico",
+      "instance-of": "n-location"
+    },
+    "n-earth": {
+      "name": "Earth",
       "instance-of": "n-location"
     }
   },
