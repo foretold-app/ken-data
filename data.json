@@ -335,7 +335,7 @@
       "instance-of": "n-location"
     },
     "n-washington": {
-      "name": "Washington",
+      "name": "Washington (State)",
       "instance-of": "n-location"
     },
     "n-california": {
@@ -343,7 +343,7 @@
       "instance-of": "n-location"
     },
     "n-new-york": {
-      "name": "New York",
+      "name": "New York (State)",
       "instance-of": "n-location"
     },
     "n-africa": {
