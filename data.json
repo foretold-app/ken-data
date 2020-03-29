@@ -350,10 +350,6 @@
       "name": "Africa",
       "instance-of": "n-location"
     },
-    "n-egypt": {
-      "name": "Egypt",
-      "instance-of": "n-location"
-    },
     "n-asia": {
       "name": "Asia",
       "instance-of": "n-location"
@@ -388,6 +384,222 @@
     },
     "n-earth": {
       "name": "Earth",
+      "instance-of": "n-location"
+    },
+    "n-algeria": {
+      "name": "Algeria",
+      "instance-of": "n-location"
+    },
+    "n-angola": {
+      "name": "Angola",
+      "instance-of": "n-location"
+    },
+    "n-benin": {
+      "name": "Benin",
+      "instance-of": "n-location"
+    },
+    "n-botswana": {
+      "name": "Botswana",
+      "instance-of": "n-location"
+    },
+    "n-burkina-faso": {
+      "name": "Burkina Faso",
+      "instance-of": "n-location"
+    },
+    "n-burundi": {
+      "name": "Burundi",
+      "instance-of": "n-location"
+    },
+    "n-cameroon": {
+      "name": "Cameroon",
+      "instance-of": "n-location"
+    },
+    "n-cape-verde": {
+      "name": "Cape Verde",
+      "instance-of": "n-location"
+    },
+    "n-central-african-republic": {
+      "name": "Central African Republic",
+      "instance-of": "n-location"
+    },
+    "n-chad": {
+      "name": "Chad",
+      "instance-of": "n-location"
+    },
+    "n-camoros": {
+      "name": "Camoros",
+      "instance-of": "n-location"
+    },
+    "n-democratic-republic-of-the-congo": {
+      "name": "Democratic Republic of the Congo",
+      "instance-of": "n-location"
+    },
+    "n-republic-of-the-congo": {
+      "name": "Republic of the Congo",
+      "instance-of": "n-location"
+    },
+    "n-djibouti": {
+      "name": "Djibouti",
+      "instance-of": "n-location"
+    },
+    "n-egypt": {
+      "name": "Egypt",
+      "instance-of": "n-location"
+    },
+    "n-equatorial-guinea": {
+      "name": "Equatorial Guinea",
+      "instance-of": "n-location"
+    },
+    "n-eritrea": {
+      "name": "Eritrea",
+      "instance-of": "n-location"
+    },
+    "n-ethiopia": {
+      "name": "Ethiopia",
+      "instance-of": "n-location"
+    },
+    "n-gabon": {
+      "name": "Gabon",
+      "instance-of": "n-location"
+    },
+    "n-gambia": {
+      "name": "Gambia",
+      "instance-of": "n-location"
+    },
+    "n-ghana": {
+      "name": "Ghana",
+      "instance-of": "n-location"
+    },
+    "n-guinea": {
+      "name": "Guinea",
+      "instance-of": "n-location"
+    },
+    "n-guinea-bissau": {
+      "name": "Guinea-Bissau",
+      "instance-of": "n-location"
+    },
+    "n-ivory-coast": {
+      "name": "Ivory Coast",
+      "instance-of": "n-location"
+    },
+    "n-kenya": {
+      "name": "Kenya",
+      "instance-of": "n-location"
+    },
+    "n-lesotho": {
+      "name": "Lesotho",
+      "instance-of": "n-location"
+    },
+    "n-liberia": {
+      "name": "Liberia",
+      "instance-of": "n-location"
+    },
+    "n-libya": {
+      "name": "Libya",
+      "instance-of": "n-location"
+    },
+    "n-madagascar": {
+      "name": "Madagascar",
+      "instance-of": "n-location"
+    },
+    "n-malawi": {
+      "name": "Malawi",
+      "instance-of": "n-location"
+    },
+    "n-mali": {
+      "name": "Mali",
+      "instance-of": "n-location"
+    },
+    "n-mauritania": {
+      "name": "Mauritania",
+      "instance-of": "n-location"
+    },
+    "n-mauritius": {
+      "name": "Mauritius",
+      "instance-of": "n-location"
+    },
+    "n-morocco": {
+      "name": "Morocco",
+      "instance-of": "n-location"
+    },
+    "n-mozambique": {
+      "name": "Mozambique",
+      "instance-of": "n-location"
+    },
+    "n-namibia": {
+      "name": "Namibia",
+      "instance-of": "n-location"
+    },
+    "n-niger": {
+      "name": "Niger",
+      "instance-of": "n-location"
+    },
+    "n-nigeria": {
+      "name": "Nigeria",
+      "instance-of": "n-location"
+    },
+    "n-rwanda": {
+      "name": "Rwanda",
+      "instance-of": "n-location"
+    },
+    "n-sao-tome-and-principe": {
+      "name": "Sao Tome and Principe",
+      "instance-of": "n-location"
+    },
+    "n-senegal": {
+      "name": "Senegal",
+      "instance-of": "n-location"
+    },
+    "n-seychelles": {
+      "name": "Seychelles",
+      "instance-of": "n-location"
+    },
+    "n-sierra-leone": {
+      "name": "Sierra Leone",
+      "instance-of": "n-location"
+    },
+    "n-somalia": {
+      "name": "Somalia",
+      "instance-of": "n-location"
+    },
+    "n-south-africa": {
+      "name": "South Africa",
+      "instance-of": "n-location"
+    },
+    "n-south-sudan": {
+      "name": "South Sudan",
+      "instance-of": "n-location"
+    },
+    "n-sudan": {
+      "name": "Sudan",
+      "instance-of": "n-location"
+    },
+    "n-swaziland": {
+      "name": "Swaziland",
+      "instance-of": "n-location"
+    },
+    "n-tanzania": {
+      "name": "Tanzania",
+      "instance-of": "n-location"
+    },
+    "n-togo": {
+      "name": "Togo",
+      "instance-of": "n-location"
+    },
+    "n-tunisia": {
+      "name": "Tunisia",
+      "instance-of": "n-location"
+    },
+    "n-uganda": {
+      "name": "Uganda",
+      "instance-of": "n-location"
+    },
+    "n-zambia": {
+      "name": "Zambia",
+      "instance-of": "n-location"
+    },
+    "n-zimbabwe": {
+      "name": "Zimbabwe",
       "instance-of": "n-location"
     }
   },
