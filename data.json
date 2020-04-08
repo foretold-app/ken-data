@@ -601,6 +601,66 @@
     "n-zimbabwe": {
       "name": "Zimbabwe",
       "instance-of": "n-location"
+    },
+    "n-hungary": {
+      "name": "Hungary",
+      "instance-of": "n-location"
+    },
+    "n-czech-republic": {
+      "name": "Czech Republic",
+      "instance-of": "n-location"
+    },
+    "n-ukraine": {
+      "name": "Ukraine",
+      "instance-of": "n-location"
+    },
+    "n-belarus": {
+      "name": "Belarus",
+      "instance-of": "n-location"
+    },
+    "n-nepal": {
+      "name": "Nepal",
+      "instance-of": "n-location"
+    },
+    "n-myanmar": {
+      "name": "Myanmar",
+      "instance-of": "n-location"
+    },
+    "n-azerbaijan": {
+      "name": "Azerbaijan",
+      "instance-of": "n-location"
+    },
+    "n-kazakhstan": {
+      "name": "Kazakhstan",
+      "instance-of": "n-location"
+    },
+    "n-uzbekistan": {
+      "name": "Uzbekistan",
+      "instance-of": "n-location"
+    },
+    "n-saudi-arabia": {
+      "name": "Saudi Arabia",
+      "instance-of": "n-location"
+    },
+    "n-argentina": {
+      "name": "Argentina",
+      "instance-of": "n-location"
+    },
+    "n-brazil": {
+      "name": "Brazil",
+      "instance-of": "n-location"
+    },
+    "n-dominica": {
+      "name": "Dominica (Caribbean)",
+      "instance-of": "n-location"
+    },
+    "n-maldives": {
+      "name": "Maldives",
+      "instance-of": "n-location"
+    },
+    "n-panama": {
+      "name": "Panama",
+      "instance-of": "n-location"
     }
   },
   {
