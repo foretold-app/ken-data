@@ -228,6 +228,14 @@
       "name": "Coronavirus:Total Infections",
       "description": "Total number of infected cases at this point. This includes people without symptoms, or who aren't yet confirmed.",
       "instance-of": "property"
+    },
+    "p-percent-of-deaths-attributed": {
+      "name": "Coronavirus: % of Covid-19 Deaths Attributed",
+      "instance-of": "property"
+    },
+    "p-percent-of-infections-attributed": {
+      "name": "Coronavirus: % of Covid-19 Infections Attributed",
+      "instance-of": "property"
     }
   },
   {
@@ -244,7 +252,8 @@
     },
     "n-china": {
       "name": "China",
-      "instance-of": "n-location"
+      "instance-of": "n-location",
+      "wikidata-id": "3wef"
     },
     "n-hubei": {
       "name": "Hubei",
@@ -661,6 +670,30 @@
     "n-panama": {
       "name": "Panama",
       "instance-of": "n-location"
+    },
+    "n-mumbai": {
+      "name": "Mumbai (India)"
+    },
+    "n-bangularu": {
+      "name": "Bangaluru (India)"
+    },
+    "n-chennai": {
+      "name": "Chennai (India)"
+    },
+    "n-dar-es-salaam": {
+      "name": "Dar es Salaam (Tanzania)"
+    },
+    "n-bangui": {
+      "name": "Bangui (Central African Republic)"
+    },
+    "n-sao-paulo": {
+      "name": "São Paulo (Brazil)"
+    },
+    "n-rio-de-janeiro": {
+      "name": "Rio de Janeiro (Brazil)"
+    },
+    "n-belo-horizonte": {
+      "name": "Belo Horizonte (Brazil)"
     }
   },
   {

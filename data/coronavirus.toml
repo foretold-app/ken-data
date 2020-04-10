@@ -15,3 +15,11 @@ name = "Coronavirus"
 name = "Coronavirus:Total Infections"
 description = "Total number of infected cases at this point. This includes people without symptoms, or who aren't yet confirmed."
 instance-of = "property"
+
+[p-percent-of-deaths-attributed]
+name = "Coronavirus: % of Covid-19 Deaths Attributed"
+instance-of = "property"
+
+[p-percent-of-infections-attributed]
+name = "Coronavirus: % of Covid-19 Infections Attributed"
+instance-of = "property"

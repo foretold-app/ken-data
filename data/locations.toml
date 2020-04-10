@@ -428,3 +428,27 @@ instance-of = "n-location"
 [n-panama]
 name = "Panama"
 instance-of = "n-location"
+
+[n-mumbai]
+name = "Mumbai (India)"
+
+[n-bangularu]
+name = "Bangaluru (India)"
+
+[n-chennai]
+name = "Chennai (India)"
+
+[n-dar-es-salaam]
+name = "Dar es Salaam (Tanzania)"
+
+[n-bangui]
+name = "Bangui (Central African Republic)"
+
+[n-sao-paulo]
+name = "São Paulo (Brazil)"
+
+[n-rio-de-janeiro]
+name = "Rio de Janeiro (Brazil)"
+
+[n-belo-horizonte]
+name = "Belo Horizonte (Brazil)"
