@@ -46,6 +46,10 @@ instance-of = "n-location"
 name = "Australia"
 instance-of = "n-location"
 
+[n-europe]
+name = "Europe"
+instance-of = "n-location"
+
 [n-european-union]
 name = "European Union"
 instance-of = "n-location"
@@ -124,6 +128,10 @@ instance-of = "n-location"
 
 [n-south-america]
 name = "South America"
+instance-of = "n-location"
+
+[n-north-america]
+name = "North America"
 instance-of = "n-location"
 
 [n-india]
