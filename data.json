@@ -236,6 +236,14 @@
     "p-percent-of-infections-attributed": {
       "name": "Coronavirus: % of Covid-19 Infections Attributed",
       "instance-of": "property"
+    },
+    "p-time-from-infection-to-death": {
+      "name": "(TTD) Time From Infection To Death (Days)",
+      "instance-of": "property"
+    },
+    "p-infection-fatality-ratio": {
+      "name": "Infection Fatality Ratio",
+      "instance-of": "property"
     }
   },
   {
