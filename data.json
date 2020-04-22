@@ -263,48 +263,58 @@
       "name": "ISO 3166-2 Code",
       "instance-of": "property"
     },
+    "n-country": {
+      "name": "Country"
+    },
+    "n-city": {
+      "name": "City"
+    },
+    "p-country": {
+      "name": "Country",
+      "instance-of": "property"
+    },
     "n-china": {
       "name": "China",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CN"
     },
     "n-hubei": {
       "name": "Hubei",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CN-HB"
     },
     "n-wuhan": {
       "name": "Wuhan",
-      "instance-of": "n-location"
+      "instance-of": "n-city"
     },
     "n-south-korea": {
       "name": "South Korea",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "KR"
     },
     "n-japan": {
       "name": "Japan",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "JP"
     },
     "n-singapore": {
       "name": "Singapore",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SG"
     },
     "n-hong-kong": {
       "name": "Hong Kong",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CN-HK"
     },
     "n-indonesia": {
       "name": "Indonesia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ID"
     },
     "n-australia": {
       "name": "Australia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "AU"
     },
     "n-europe": {
@@ -318,46 +328,46 @@
     },
     "n-united-kingdon": {
       "name": "United Kingdon",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "GB"
     },
     "n-london": {
       "name": "London",
-      "instance-of": "n-location"
+      "instance-of": "n-city"
     },
     "n-germany": {
       "name": "Germany",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "DE"
     },
     "n-spain": {
       "name": "Spain",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ES"
     },
     "n-france": {
       "name": "France",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "FR"
     },
     "n-netherlands": {
       "name": "Netherlands",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "NL"
     },
     "n-belgium": {
       "name": "Belgium",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "BE"
     },
     "n-switzerland": {
       "name": "Switzerland",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CH"
     },
     "n-russia": {
       "name": "Russia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "RU"
     },
     "n-middle-east": {
@@ -366,16 +376,16 @@
     },
     "n-dubai": {
       "name": "Dubai",
-      "instance-of": "n-location"
+      "instance-of": "n-city"
     },
     "n-iran": {
       "name": "Iran",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "IR"
     },
     "n-united-states-of-america": {
       "name": "United States of America",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "US "
     },
     "n-washington": {
@@ -415,30 +425,30 @@
     },
     "n-india": {
       "name": "India",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "IN"
     },
     "n-oxford": {
       "name": "Oxford",
-      "instance-of": "n-location"
+      "instance-of": "n-city"
     },
     "n-italy": {
       "name": "Italy",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "IT"
     },
     "n-san-francisco": {
       "name": "San Francisco",
-      "instance-of": "n-location"
+      "instance-of": "n-city"
     },
     "n-canada": {
       "name": "Canada",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CA"
     },
     "n-mexico": {
       "name": "Mexico",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MX"
     },
     "n-earth": {
@@ -448,346 +458,346 @@
     },
     "n-algeria": {
       "name": "Algeria",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "DZ"
     },
     "n-angola": {
       "name": "Angola",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "AO"
     },
     "n-benin": {
       "name": "Benin",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "BJ"
     },
     "n-botswana": {
       "name": "Botswana",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "BW"
     },
     "n-burkina-faso": {
       "name": "Burkina Faso",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "BF"
     },
     "n-burundi": {
       "name": "Burundi",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "BI"
     },
     "n-cameroon": {
       "name": "Cameroon",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CM"
     },
     "n-cape-verde": {
       "name": "Cape Verde",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CV"
     },
     "n-central-african-republic": {
       "name": "Central African Republic",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CF"
     },
     "n-chad": {
       "name": "Chad",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "TD"
     },
     "n-camoros": {
       "name": "Camoros",
-      "instance-of": "n-location"
+      "instance-of": "n-country"
     },
     "n-democratic-republic-of-the-congo": {
       "name": "Democratic Republic of the Congo",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CD"
     },
     "n-republic-of-the-congo": {
       "name": "Republic of the Congo",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CG"
     },
     "n-djibouti": {
       "name": "Djibouti",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "DJ"
     },
     "n-egypt": {
       "name": "Egypt",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "EG"
     },
     "n-equatorial-guinea": {
       "name": "Equatorial Guinea",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "GQ"
     },
     "n-eritrea": {
       "name": "Eritrea",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ER"
     },
     "n-ethiopia": {
       "name": "Ethiopia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ET"
     },
     "n-gabon": {
       "name": "Gabon",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "GA"
     },
     "n-gambia": {
       "name": "Gambia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "GM"
     },
     "n-ghana": {
       "name": "Ghana",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "GH"
     },
     "n-guinea": {
       "name": "Guinea",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "GN"
     },
     "n-guinea-bissau": {
       "name": "Guinea-Bissau",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "GW"
     },
     "n-ivory-coast": {
       "name": "Ivory Coast",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CI"
     },
     "n-kenya": {
       "name": "Kenya",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "KE"
     },
     "n-lesotho": {
       "name": "Lesotho",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "LS"
     },
     "n-liberia": {
       "name": "Liberia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "LR"
     },
     "n-libya": {
       "name": "Libya",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "LY"
     },
     "n-madagascar": {
       "name": "Madagascar",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MG"
     },
     "n-malawi": {
       "name": "Malawi",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MW"
     },
     "n-mali": {
       "name": "Mali",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ML"
     },
     "n-mauritania": {
       "name": "Mauritania",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MR"
     },
     "n-mauritius": {
       "name": "Mauritius",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MU"
     },
     "n-morocco": {
       "name": "Morocco",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MA"
     },
     "n-mozambique": {
       "name": "Mozambique",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MZ"
     },
     "n-namibia": {
       "name": "Namibia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "NA"
     },
     "n-niger": {
       "name": "Niger",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "NE"
     },
     "n-nigeria": {
       "name": "Nigeria",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "NG"
     },
     "n-rwanda": {
       "name": "Rwanda",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "RW"
     },
     "n-sao-tome-and-principe": {
       "name": "Sao Tome and Principe",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ST"
     },
     "n-senegal": {
       "name": "Senegal",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SN"
     },
     "n-seychelles": {
       "name": "Seychelles",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SC"
     },
     "n-sierra-leone": {
       "name": "Sierra Leone",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SL"
     },
     "n-somalia": {
       "name": "Somalia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SO"
     },
     "n-south-africa": {
       "name": "South Africa",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ZA"
     },
     "n-south-sudan": {
       "name": "South Sudan",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SS"
     },
     "n-sudan": {
       "name": "Sudan",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SD"
     },
     "n-swaziland": {
       "name": "Swaziland",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SZ"
     },
     "n-tanzania": {
       "name": "Tanzania",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "TZ"
     },
     "n-togo": {
       "name": "Togo",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "TG"
     },
     "n-tunisia": {
       "name": "Tunisia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "TN"
     },
     "n-uganda": {
       "name": "Uganda",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "UG"
     },
     "n-zambia": {
       "name": "Zambia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ZM"
     },
     "n-zimbabwe": {
       "name": "Zimbabwe",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "ZW"
     },
     "n-hungary": {
       "name": "Hungary",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "HU"
     },
     "n-czech-republic": {
       "name": "Czech Republic",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "CZ"
     },
     "n-ukraine": {
       "name": "Ukraine",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "UA"
     },
     "n-belarus": {
       "name": "Belarus",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "BY"
     },
     "n-nepal": {
       "name": "Nepal",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "Nepp-iso-code": "al"
     },
     "n-myanmar": {
       "name": "Myanmar",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MM"
     },
     "n-azerbaijan": {
       "name": "Azerbaijan",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "AZ"
     },
     "n-kazakhstan": {
       "name": "Kazakhstan",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "KZ"
     },
     "n-uzbekistan": {
       "name": "Uzbekistan",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "UZ"
     },
     "n-saudi-arabia": {
       "name": "Saudi Arabia",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "SA"
     },
     "n-argentina": {
       "name": "Argentina",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "AR"
     },
     "n-brazil": {
       "name": "Brazil",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "BR"
     },
     "n-dominica": {
       "name": "Dominica (Caribbean)",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "DM"
     },
     "n-maldives": {
       "name": "Maldives",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "MV"
     },
     "n-panama": {
       "name": "Panama",
-      "instance-of": "n-location",
+      "instance-of": "n-country",
       "p-iso-code": "PA"
     },
     "n-mumbai": {
@@ -822,8 +832,68 @@
       "name": "Pakistan",
       "p-iso-code": "PK"
     },
+    "n-pakistan-azad-jammu-and-kashmir": {
+      "name": "Azad Jammu and Kashmir (Pakistan)",
+      "p-country": "n-pakistan"
+    },
     "n-pakistan-balochistan": {
-      "name": "Balochistan (Pakistan)"
+      "name": "Balochistan (Pakistan)",
+      "p-country": "n-pakistan"
+    },
+    "n-pakistan-gilgit-baltistan": {
+      "name": "Gilgit-Baltistan (Pakistan)",
+      "p-country": "n-pakistan"
+    },
+    "n-pakistan-islamabad-capital-territory": {
+      "name": "Islamabad Capital Territory (Pakistan)",
+      "p-country": "n-pakistan"
+    },
+    "n-pakistan-khyber-pakhtunkhwa": {
+      "name": "Khyber Pakhtunkhwa (Pakistan)",
+      "p-country": "n-pakistan"
+    },
+    "n-pakistan-punjab": {
+      "name": "Punjab (Pakistan)",
+      "p-country": "n-pakistan"
+    },
+    "n-pakistan-sindh": {
+      "name": "Sindh (Pakistan)",
+      "p-country": "n-pakistan"
+    },
+    "n-pakistan-karachi": {
+      "name": "Karachi (Pakistan)",
+      "p-country": "n-pakistan",
+      "instance-of": "n-city"
+    },
+    "n-pakistan-hyderabad": {
+      "name": "Hyderabad (Pakistan)",
+      "p-country": "n-pakistan",
+      "instance-of": "n-city"
+    },
+    "n-pakistan-sakkur": {
+      "name": "Sakkur (Pakistan)",
+      "p-country": "n-pakistan",
+      "instance-of": "n-city"
+    },
+    "n-pakistan-nawabshah": {
+      "name": "Nawabshah (Pakistan)",
+      "p-country": "n-pakistan",
+      "instance-of": "n-city"
+    },
+    "n-pakistan-quetta": {
+      "name": "Quetta (Pakistan)",
+      "p-country": "n-pakistan",
+      "instance-of": "n-city"
+    },
+    "n-pakistan-turbat": {
+      "name": "Turbat (Pakistan)",
+      "p-country": "n-pakistan",
+      "instance-of": "n-city"
+    },
+    "n-pakistan-gwadar": {
+      "name": "Gwadar (Pakistan)",
+      "p-country": "n-pakistan",
+      "instance-of": "n-city"
     }
   },
   {
