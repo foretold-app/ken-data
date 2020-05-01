@@ -511,9 +511,9 @@ name = "Kazakhstan"
 instance-of = "n-country"
 p-iso-code = "KZ"
 
-[n-kazakhstan-almata-city]
-name = "Almata City (Kazakhstan)"
-instance-of = "n-country"
+[n-kazakhstan-almata]
+name = "Almata (Kazakhstan)"
+instance-of = "n-city"
 
 [n-uzbekistan]
 name = "Uzbekistan"
