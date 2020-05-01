@@ -222,19 +222,19 @@
       }
     },
     "n-coronavirus": {
-      "name": "Coronavirus"
+      "name": "COVID-19"
     },
     "p-infections": {
-      "name": "Coronavirus:Total Infections",
-      "description": "Total number of infected cases at this point. This includes people without symptoms, or who aren't yet confirmed.",
+      "name": "COVID-19: Active Infections",
+      "description": "Active infections on the question date. True asymptomatic and symptomatic, not just recorded infections.",
       "instance-of": "property"
     },
     "p-percent-of-deaths-attributed": {
-      "name": "Coronavirus: % of Covid-19 Deaths Attributed",
+      "name": "COVID-19: % of Covid-19 Deaths Attributed",
       "instance-of": "property"
     },
     "p-percent-of-infections-attributed": {
-      "name": "Coronavirus: % of Covid-19 Infections Attributed",
+      "name": "COVID-19: % of Covid-19 Infections Attributed",
       "instance-of": "property"
     },
     "p-time-from-infection-to-death": {
@@ -764,6 +764,10 @@
       "name": "Kazakhstan",
       "instance-of": "n-country",
       "p-iso-code": "KZ"
+    },
+    "n-kazakhstan-almata-city": {
+      "name": "Almata City (Kazakhstan)",
+      "instance-of": "n-country"
     },
     "n-uzbekistan": {
       "name": "Uzbekistan",
