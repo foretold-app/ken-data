@@ -17,11 +17,11 @@ description = "Active infections on the question date. True asymptomatic and sym
 instance-of = "property"
 
 [p-percent-of-deaths-attributed]
-name = "COVID-19: % of Covid-19 Deaths Attributed"
+name = "COVID-19: Ratio of Covid-19 Deaths Attributed"
 instance-of = "property"
 
 [p-percent-of-infections-attributed]
-name = "COVID-19: % of Covid-19 Infections Attributed"
+name = "COVID-19: Ratio of Covid-19 Infections Attributed"
 instance-of = "property"
 
 [p-time-from-infection-to-death]
@@ -30,4 +30,36 @@ instance-of = "property"
 
 [p-infection-fatality-ratio]
 name="Infection Fatality Ratio"
+instance-of = "property"
+
+[p-basic-reproduction-number]
+name="Basic Reproduction Number (R0)"
+instance-of = "property"
+
+[p-cumulative-deaths]
+name="Cumulative Deaths"
+instance-of = "property"
+
+[p-basic-reproduction-number-given-weak-countermeasures]
+name="Basic Reproduction Number (R0), Assuming Weak Countermeasures"
+instance-of = "property"
+
+[p-basic-reproduction-number-given-moderate-countermeasures]
+name="Basic Reproduction Number (R0), Assuming Moderate Countermeasures"
+instance-of = "property"
+
+[p-basic-reproduction-number-given-strong-countermeasures]
+name="Basic Reproduction Number (R0), Assuming Strong Countermeasures"
+instance-of = "property"
+
+[p-cumulative-deaths-given-weak-countermeasures]
+name="Cumulative Deaths, Assuming Weak Countermeasures"
+instance-of = "property"
+
+[p-cumulative-deaths-number-given-moderate-countermeasures]
+name="Cumulative Deaths, Assuming Moderate Countermeasures"
+instance-of = "property"
+
+[p-cumulative-deaths-number-given-strong-countermeasures]
+name="Cumulative Deaths, Assuming Strong Countermeasures"
 instance-of = "property"
