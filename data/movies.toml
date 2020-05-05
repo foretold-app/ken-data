@@ -11,6 +11,7 @@ resourceId = "movies"
 
 [imdb-rating]
 name = "IMDB Rating"
+description = "The IMDB Rating of this item"
 
 [rt-rating]
 name = "Rotten Tomatoes Rating"
