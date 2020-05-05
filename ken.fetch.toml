@@ -1,11 +1,11 @@
 imports = [
-    "./data/base/*",
-    "./data/foretold/*",
-    "./data/lessWrong/*",
-    "./data/coronavirus.toml",
-    "./data/locations.toml",
-    "./data/movies.toml",
-    "./data/orgs.toml",
+    "./src/base/*",
+    "./src/foretold/*",
+    "./src/lesswrong/*",
+    "./src/coronavirus.toml",
+    "./src/locations.toml",
+    "./src/movies.toml",
+    "./src/orgs.toml",
 ]
 
 "output" = "data.json"
