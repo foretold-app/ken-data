@@ -7,8 +7,11 @@ resourceId = ""
   instance-of = "@base/properties/p-instance-of"
   property = "@base/properties/n-property"
 
-[n-location]
-name = "Location"
+[n-location
+name "Location"
+teslkjtsdf 
+
+test bad code :(
 
 [p-iso-code]
 name = "ISO 3166-2 Code"
