@@ -129,6 +129,11 @@ name = "Iran"
 instance-of = "n-country"
 p-iso-code = "IR"
 
+[n-iraq]
+name = "Iraq"
+instance-of = "n-country"
+p-iso-code = "IRQ"
+
 [n-united-states-of-america]
 name = "United States of America"
 instance-of = "n-country"
