@@ -77,8 +77,9 @@ p-iso-code = "W-EU"
 name = "European Union"
 instance-of = "n-location"
 
+##TODO: Change Kingdon -> Kingdom in Foretold
 [n-united-kingdon]
-name = "United Kingdon"
+name = "United Kingdom"
 instance-of = "n-country"
 p-iso-code = "GB"
 
